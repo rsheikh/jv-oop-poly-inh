@@ -2,5 +2,5 @@ package shapes;
 
 public abstract class Shape {
 
-    abstract double calculateArea();
+    public abstract double calculateArea();
 }
