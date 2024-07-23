@@ -5,7 +5,8 @@ public class Cube extends Shape3D{
     public Cube(int size) {
 //        this(size * size); // new Cube()
 
-        new Cube(size * size);
+        Rectangle base = new Rectangle(size, size);
+        new Cube(base);
     }
 
     private Cube(Rectangle base) {
