@@ -6,7 +6,8 @@ public class Cube extends Shape3D{
     }
 
     @Override
-    public void calculateVolume() {
+    public double calculateVolume() {
 
+        return 0;
     }
 }

@@ -2,12 +2,17 @@ package shapes;
 
 public class Sphere extends Shape3D{
 
+
     public Sphere(Circle base) {
         this.base = base;
+
+        base.getRadius();
     }
 
     @Override
-    public void calculateVolume() {
+    public double calculateVolume() {
+
+//        return
 
     }
 }
