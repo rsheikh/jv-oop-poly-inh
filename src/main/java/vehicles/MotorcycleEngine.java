@@ -6,5 +6,7 @@ public class MotorcycleEngine extends Engine {
     public MotorcycleEngine(int horsePower, MotorcycleEngine.FuelType fuelType) {
         this.horsePower = horsePower;
         this.fuelType = fuelType.toString();
+
+
     }
 }
