@@ -13,7 +13,7 @@ public class Cube extends Shape3D{
     @Override
     public double calculateVolume() {
         Rectangle rect = (Rectangle) this.base;
-
+        System.out.println(Math.pow(rect.length, 3));
         return Math.pow(rect.length, 3);
     }
 }
