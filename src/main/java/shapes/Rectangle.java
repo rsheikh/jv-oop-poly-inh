@@ -10,7 +10,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    int calculateArea() {
-        return 0;
+    double calculateArea() {
+        return length & width;
     }
 }
