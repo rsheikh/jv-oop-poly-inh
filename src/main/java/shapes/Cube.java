@@ -3,10 +3,7 @@ package shapes;
 public class Cube extends Shape3D{
 
     public Cube(int size) {
-//        this(size * size); // new Cube()
-
-        Rectangle base = new Rectangle(size, size);
-        new Cube(base);
+        this(new Rectangle(size, size));
     }
 
     private Cube(Rectangle base) {
